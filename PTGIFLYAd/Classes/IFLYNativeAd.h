@@ -19,14 +19,12 @@
 /**
  *  原生广告加载广告数据成功回调
  *
- *  @param adData IFLYAdData对象
  */
 - (void)onNativeAdReceived:(IFLYAdData *)adData;
 
 /**
  *  原生广告错误回调
  *
- *  @param errorCode 错误码，详见接入手册
  */
 - (void)onNativeAdFailed:(IFLYAdError *)error;
 
